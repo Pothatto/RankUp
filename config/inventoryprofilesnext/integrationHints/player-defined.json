@@ -1,0 +1,53 @@
+{
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "top": 255
+            },
+            "SETTINGS": {
+                "top": 252
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 12,
+                "bottom": 11
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "top": 230
+            },
+            "SETTINGS": {
+                "top": 227
+            }
+        }
+    },
+    "mekanism.client.gui.machine.GuiElectrolyticSeparator": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 12,
+                "bottom": 11
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.core.client.gui.container.ContainerScreenAspectSettings": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": 160
+            },
+            "MOVE_TO_PLAYER": {
+                "top": -40
+            },
+            "SORT": {
+                "top": -63
+            },
+            "SORT_COLUMNS": {
+                "top": -69
+            },
+            "SORT_ROWS": {
+                "top": -50
+            }
+        }
+    }
+}
