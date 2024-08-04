@@ -121,17 +121,6 @@
         "value": 150
       }
     },
-    "cold_sweat:base_temperature": {
-      "enabled": false,
-      "min": {
-        "default": -150,
-        "value": -150
-      },
-      "max": {
-        "default": 150,
-        "value": 150
-      }
-    },
     "irons_spellbooks:nature_magic_resist": {
       "enabled": false,
       "min": {
@@ -141,6 +130,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "cold_sweat:base_temperature": {
+      "enabled": false,
+      "min": {
+        "default": -150,
+        "value": -150
+      },
+      "max": {
+        "default": 150,
+        "value": 150
       }
     },
     "attributeslib:armor_pierce": {
@@ -462,17 +462,6 @@
         "value": 64
       }
     },
-    "cold_sweat:burning_point_offset": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "irons_spellbooks:blood_magic_resist": {
       "enabled": false,
       "min": {
@@ -482,6 +471,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "cold_sweat:burning_point_offset": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "irons_spellbooks:evocation_magic_resist": {

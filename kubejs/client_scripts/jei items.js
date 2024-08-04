@@ -1,23 +1,8 @@
 JEIEvents.hideItems(event =>{
    const colors = ['white', 'light_gray', 'gray', 'black', 'brown', 'red', 'orange', 'yellow', 'lime', 'green', 'cyan', 'light_blue', 'blue', 'purple', 'magenta', 'pink'];
    colors.forEach(color => {
-    //Removing Refined Storage Colored blocks From JEI
-    event.hide(`refinedstorage:${color}_grid`);
-    event.hide(`refinedstorage:${color}_crafting_grid`);
-    event.hide(`refinedstorage:${color}_pattern_grid`); 
-    event.hide(`refinedstorage:${color}_fluid_grid`); 
-    event.hide(`refinedstorage:${color}_controller`); 
-    event.hide(`refinedstorage:${color}_creative_controller`); 
-    event.hide(`refinedstorage:${color}_network_receiver`); 
-    event.hide(`refinedstorage:${color}_network_transmitter`); 
-    event.hide(`refinedstorage:${color}_relay`); 
-    event.hide(`refinedstorage:${color}_detector`); 
-    event.hide(`refinedstorage:${color}_security_manager`); 
-    event.hide(`refinedstorage:${color}_disk_manipulator`); 
-    event.hide(`refinedstorage:${color}_crafter`); 
-    event.hide(`refinedstorage:${color}_crafter_manager`); 
-    event.hide(`refinedstorage:${color}_crafting_monitor`); 
-    event.hide(`refinedstorage:${color}_wireless_transmitter`); 
+    //Removing Colored blocks From JEI
+    event.hide(`minecraft:${color}_wool`);
 });
     //Removing Flying Effect From JEI
    const flyingeffect = [
@@ -36,7 +21,6 @@ JEIEvents.hideItems(event =>{
    Item.of('minecraft:lingering_potion', '{Potion:"apotheosis:flying"}'),
    Item.of('minecraft:lingering_potion', '{Potion:"apotheosis:long_flying"}'),
    Item.of('minecraft:lingering_potion', '{Potion:"apotheosis:extra_long_flying"}'),
-   Item.of('immersiveengineering:potion_bucket', '{Potion:"apotheosis:extra_long_flying"}')
 ];
    flyingeffect.forEach(flyeffect =>{
    event.hide(flyeffect);

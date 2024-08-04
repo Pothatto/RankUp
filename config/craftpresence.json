@@ -174,7 +174,8 @@
     },
     "dynamicIcons": {
       "default": "https://via.placeholder.com/256.png",
-      "Pothatto": "https://mc-heads.net/avatar/5a902f63e1734fe8806f9c30163479fa"
+      "Pothatto": "https://mc-heads.net/avatar/5a902f63e1734fe8806f9c30163479fa",
+      "[2804": "https://api.mcsrvstat.us/icon/[2804"
     },
     "dynamicVariables": {
       "default": "Example Text",
