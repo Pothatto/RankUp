@@ -61,12 +61,4 @@ OperatorsI.forEach(OpI =>{
 });
 //Hidding Rage Glove
 event.hide('relics:rage_glove')
-
-//Removing Incomplete mechanisms
-
-const incomplete = [
-   ]
-   incomplete.forEach(INCOMPLETE => { 
-       event.hide(INCOMPLETE)
-   })
 })
