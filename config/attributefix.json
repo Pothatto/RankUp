@@ -231,17 +231,6 @@
         "value": 10
       }
     },
-    "eidolon:persistent_soul_hearts": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2000,
-        "value": 2000
-      }
-    },
     "forge:entity_reach": {
       "enabled": false,
       "min": {
@@ -273,17 +262,6 @@
       "max": {
         "default": 1,
         "value": 1
-      }
-    },
-    "eidolon:chanting_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
       }
     },
     "irons_spellbooks:cast_time_reduction": {
@@ -430,17 +408,6 @@
       }
     },
     "irons_spellbooks:fire_magic_resist": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10,
-        "value": 10
-      }
-    },
-    "eidolon:magic_power": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -660,17 +627,6 @@
         "value": 1
       }
     },
-    "autoleveling:monster.explosion_damage_bonus": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 1000,
-        "value": 1000
-      }
-    },
     "irons_spellbooks:lightning_spell_power": {
       "enabled": false,
       "min": {
@@ -770,17 +726,6 @@
         "value": 10
       }
     },
-    "eidolon:max_soul_hearts": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2000,
-        "value": 2000
-      }
-    },
     "minecraft:generic.max_health": {
       "enabled": true,
       "min": {
@@ -867,17 +812,6 @@
       "max": {
         "default": 10000,
         "value": 10000
-      }
-    },
-    "autoleveling:monster.projectile_damage_bonus": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 1000,
-        "value": 1000
       }
     },
     "minecraft:generic.knockback_resistance": {

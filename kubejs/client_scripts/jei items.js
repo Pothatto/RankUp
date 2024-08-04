@@ -1,6 +1,5 @@
 JEIEvents.hideItems(event =>{
    const colors = ['white', 'light_gray', 'gray', 'black', 'brown', 'red', 'orange', 'yellow', 'lime', 'green', 'cyan', 'light_blue', 'blue', 'purple', 'magenta', 'pink'];
-   const bucketPattern = /gtceu:.*_bucket/;
    colors.forEach(color => {
     //Removing Refined Storage Colored blocks From JEI
     event.hide(`refinedstorage:${color}_grid`);
@@ -66,11 +65,6 @@ event.hide('relics:rage_glove')
 //Removing Incomplete mechanisms
 
 const incomplete = [
-   'kubejs:incomplete_started_mechanism',
-   'kubejs:incomplete_started_mechanism_component_2',
-   'kubejs:incomplete_started_mechanism_component_3',
-   'kubejs:incomplete_started_mechanism_component_4',
-   'kubejs:incomplete_start_mechanism'
    ]
    incomplete.forEach(INCOMPLETE => { 
        event.hide(INCOMPLETE)

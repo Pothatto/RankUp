@@ -20,9 +20,4 @@ tooltips.add([
 'refinedstorage:crafter_manager',
 'refinedstorage:crafting_monitor'
 ],  `${changecolor}`)
-//adding tooltip for MekaFood
-const mekafoodtooltip = '§eA Comida Perfeita para um Químico';
-tooltips.add([
-    'mekamod:tablist'
-], `${mekafoodtooltip}`)
 })

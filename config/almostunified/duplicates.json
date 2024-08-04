@@ -6,6 +6,7 @@
   "defaultDuplicateRules": {
     "ignoredFields": [
       "conditions",
+      "category",
       "group"
     ],
     "rules": {
@@ -20,6 +21,7 @@
       "ignoredFields": [
         "pattern",
         "conditions",
+        "category",
         "key",
         "group"
       ],

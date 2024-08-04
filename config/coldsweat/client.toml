@@ -1,4 +1,11 @@
 
+["Temperature Preferences"]
+	#Sets all temperatures to be displayed in Celsius
+	Celsius = false
+	#Visually offsets the world temperature to better match the user's definition of "hot" and "cold"
+	#Range: > 0
+	"Temperature Offset" = 0
+
 ["UI Options"]
 	"Custom hotbar layout" = true
 	#Controls whether UI elements will shake when in critical conditions
@@ -9,13 +16,6 @@
 	"Body Temperature Readout Offset" = [0, 0]
 	#The position of the world temperature gauge relative to default
 	"World Temperature UI Offset" = [0, 0]
-
-["Temperature Preferences"]
-	#Sets all temperatures to be displayed in Celsius
-	Celsius = false
-	#Visually offsets the world temperature to better match the user's definition of "hot" and "cold"
-	#Range: > 0
-	"Temperature Offset" = 0
 
 [Accessibility]
 	#Enables visual distortion effects when the player is too hot or cold
@@ -29,7 +29,7 @@
 	#The position (offset) of the config button on the screen
 	"Config Button Position" = [0, 0]
 	#Warns the player about a bug that clears armor insulation when in creative mode
-	"Enable Creative Mode Warning" = false
+	"Enable Creative Mode Warning" = true
 	#Displays areas that the Hearth is affecting when the F3 debug menu is open
 	"Hearth Debug" = true
 

@@ -13,8 +13,8 @@
     "detectBiomeData": true,
     "detectDimensionData": true,
     "detectWorldData": true,
-    "clientId": "1091907135153119283",
-    "defaultIcon": "logo_mekarebirth",
+    "clientId": "450485984333660181",
+    "defaultIcon": "grass",
     "enableJoinRequests": false,
     "partyPrivacyLevel": 1,
     "preferredClientLevel": 3,
@@ -30,7 +30,7 @@
     }
   },
   "dimensionSettings": {
-    "fallbackDimensionIcon": "logo_mekarebirth",
+    "fallbackDimensionIcon": "unknown",
     "dimensionData": {
       "default": {
         "textOverride": "In the {dimension.name}"
@@ -58,25 +58,7 @@
       "textOverride": "Playing on a LAN Server"
     },
     "singleplayerData": {
-      "textOverride": "Playing Singleplayer",
-      "data": {
-        "enabled": true,
-        "useAsMain": false,
-        "details": "",
-        "gameState": "",
-        "largeImageKey": "logo_mekarebirth",
-        "largeImageText": "",
-        "smallImageKey": "RenanPlay13013",
-        "smallImageText": "",
-        "startTimestamp": "",
-        "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
-      }
+      "textOverride": "Playing Singleplayer"
     }
   },
   "advancedSettings": {
@@ -177,21 +159,13 @@
       "useAsMain": false,
       "details": "{getFirst(menu.message, dimension.message)}",
       "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
-      "largeImageKey": "logo_mekarebirth",
+      "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
       "largeImageText": "{getFirst(menu.message, dimension.message)}",
-      "smallImageKey": "logo_mekarebirth",
+      "smallImageKey": "{getFirst(server.icon, pack.icon)}",
       "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
       "buttons": {
-        "button_2": {
-          "label": "Outros Launchers",
-          "url": "https://www.dropbox.com/scl/fi/bxt9bvutv0fjrgzdcw9no/Rebirth621.zip?rlkey=0ec9l1byyj6s3z16y984plk0x&dl=1"
-        },
-        "button_1": {
-          "label": "Curse Forge",
-          "url": "https://www.curseforge.com/minecraft/modpacks/mekaminers"
-        },
         "default": {
           "label": "Example Text",
           "url": "https://google.com"
@@ -199,14 +173,8 @@
       }
     },
     "dynamicIcons": {
-      "0.tcp.sa.ngrok.io": "https://api.mcsrvstat.us/icon/0.tcp.sa.ngrok.io",
       "default": "https://via.placeholder.com/256.png",
-      "RenanPlay13013": "https://mc-heads.net/avatar/a2aeb0775a0d40f495a1d133e3ad06a3",
-      "jogar.mekaminers.net": "https://api.mcsrvstat.us/icon/jogar.mekaminers.net",
-      "144.22.250.59": "https://api.mcsrvstat.us/icon/144.22.250.59",
-      "Pothatto": "https://mc-heads.net/avatar/5a902f63e1734fe8806f9c30163479fa",
-      "[fdfd": "https://api.mcsrvstat.us/icon/[fdfd",
-      "26.241.160.209": "https://api.mcsrvstat.us/icon/26.241.160.209"
+      "Pothatto": "https://mc-heads.net/avatar/5a902f63e1734fe8806f9c30163479fa"
     },
     "dynamicVariables": {
       "default": "Example Text",
